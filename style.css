@@ -1,0 +1,70 @@
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
+#button {
+    background-color: rgb(55, 82, 158);
+    border: 0px;
+    color:  #e8b9ae;
+    font-weight: bold;
+    text-decoration: wavy;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button:hover {
+    background-color:#01554f;
+    border: 5px;
+    color: rgb(160, 160, 250);
+    text-decoration: none;
+    padding:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /*text-align: center;*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#goal-display {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#goalinput {
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#message {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffc7;
+    background-color: #ffb289;
+}
+
+#completeBtn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+
+#goalItem {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px;
+}
+
+#hooray {
+    font-family: 'Courier New', Courier, monospace;
+    color:#01554f;
+    background-color: bisque;
+}

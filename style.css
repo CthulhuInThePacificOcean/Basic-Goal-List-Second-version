@@ -1,0 +1,109 @@
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+}
+
+#button {
+    background-color:#01554f;
+    color: rgb(160, 160, 250);
+    text-decoration: none;
+    padding:10px;
+    font-family: 'Century Gothic';
+    border-radius: 25px;
+    border: 0px;
+    transition: padding 1s, transform 1s;
+    
+}
+
+#button:hover {
+    background-color:#01554f;
+    color: rgb(160, 160, 250);
+    text-decoration: none;
+    padding:15px;
+    font-family: 'Century Gothic';
+    border-radius: 25px;
+    border: 0px;
+    transform: rotate(30deg);
+
+}
+
+h1 {
+    /*text-align: center;*/
+    font-family: 'Century Gothic';
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#goal-display {
+    font-family: 'Century Gothic';
+    border-radius: 25px;
+}
+
+#goalinput {
+    display: inline;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Century Gothic';
+    transition: letter-spacing 1s, padding 1s;
+    
+}
+
+#goalinput:hover {
+    display: inline;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Century Gothic';
+    letter-spacing: 1px;
+    
+}
+
+#message {
+    font-family: 'Century Gothic';
+    color: #ffffc7;
+    background-color: #ffb289;
+    border-radius: 10px;
+}
+
+#completeBtn {
+    font-family: 'Century Gothic';
+    background-color: aqua;
+    border: 0px;
+    transition: padding 1s;
+    border-radius: 15px;
+}
+
+#completeBtn:hover {
+    font-family: 'Century Gothic';
+    background-color: aqua;
+    border: 0px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#goalItem {
+    font-family: 'Century Gothic';
+    margin: 4px;
+}
+
+#hooray {
+    font-family: 'Century Gothic';
+    color:#01554f;
+    background-color: bisque;
+    border-radius: 8px;
+}
+
+#counter {
+    font-family: 'Century Gothic';
+}
